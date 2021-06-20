@@ -132,7 +132,7 @@ body{
   text-transform: uppercase;
   letter-spacing: 1.3px;
   font-weight: 700;
-  color: #313133;
+  color: white;
   background: #f02c24;
 background: #f02c24/*linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%)*/;
   border: none;
@@ -151,7 +151,7 @@ content: '';
   min-width: calc(300px + 12px);
   min-height: calc(60px + 12px);
   border: 6px solid #f02c24;
-  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  box-shadow: 0 0 60px #f02c24;
   position: absolute;
   top: 50%;
   left: 50%;
