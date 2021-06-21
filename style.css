@@ -17,9 +17,9 @@ body{
     width:  156px;
     height: 156px;/*96*/
     margin: 5px auto 5px;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     border: 3px;
-    border-radius: 100%;
+    /*border-radius: 100%;*/
     border-style: solid;
     border-color: var(--bgColor);
     
