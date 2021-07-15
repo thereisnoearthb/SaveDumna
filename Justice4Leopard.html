@@ -1,0 +1,57 @@
+<script>
+
+//'mailto:cm@mp.nic.in, psuaddmp@mpurban.gov.in, psforest@mp.gov.in, commjabalpur@mpurban.gov.in?bcc=dumnajbp2020@gmail.com,thereisnoearthb@gmail.com&subject=Earnest request to stop the destruction and desecration of Dumna&body=To%20Whom%20It%20May%20Concern%0A%0A It%20has%20c  %0A%0ASincerely%0AA%20Concerned%20Citizen%0A%0A',
+
+    function randomSite() {
+
+      const SendMailTo = "pccfwl@mp.gov.in"
+      const bcc = "dumnajbp2020@gmail.com,solidarity@thereisnoearthb.com"
+
+        var SubjectLine = [
+              'Earnest request to stop the destruction and desecration of Dumna',
+              'Dumna Bachao',
+              'Re: Dumna Nature Reserve, Jabalpur, Madhya Pradesh',
+              'Earnest request to stop the destruction and desecration of Dumna',
+              'Request to Save the Biodiversity of Dumna',
+              'Important: Save Dumna Nature Reserve'
+
+            ];
+            //MessageToSend = "Could you please give a quick shoutout to 'There Is No Earth B'?<br>instagram.com/thereisnoearthb<br>twitter.com/thereisnoearthb<br>t.me/thereisnoearthb";
+
+      /*var OpeningLine  = [
+          'To%20Whom%20It%20May%20Concern%0A%0A',
+          'To%20Concerned%20Authorities%0A%0A',
+          'To%20Whomsoever%20It%20May%20Concern%0A%0A',
+          'To%20Concerned%20Department%0A%0A',
+
+
+
+        ];*/
+
+        var OpeningLine  = ['To%2C%20%0APrincipal%20Secretary%20Urban%20Development%2C%20MP%0APrincipal%20Secretary%20Forest%20Department%2C%20MP%0ACollector%20Jabalpur%2C%20MP%0AJabalpur%20Municipal%20Corporation%20Commissioner%2C%20MP%0A%20%0A%20%0A','To%2C%20%0AJabalpur%20Municipal%20Corporation%20Commissioner%2C%20MP%0APrincipal%20Secretary%20Urban%20Development%2C%20MP%0APrincipal%20Secretary%20Forest%20Department%2C%20MP%0ACollector%20Jabalpur%2C%20MP%0A%20%0A%20%0A','To%2C%20%0APrincipal%20Secretary%20Urban%20Development%2C%20MP%0AJabalpur%20Municipal%20Corporation%20Commissioner%2C%20MP%0ACollector%20Jabalpur%2C%20MP%0APrincipal%20Secretary%20Forest%20Department%2C%20MP%0A%20%0A%20%0A','To%2C%20%0AJabalpur%20Municipal%20Corporation%20Commissioner%2C%20MP%0APrincipal%20Secretary%20Urban%20Development%2C%20MP%0APrincipal%20Secretary%20Forest%20Department%2C%20MP%0ACollector%20Jabalpur%2C%20MP%0A%20%0A%20%0A'
+        ];
+
+        const BodyOfEmail = "Regarding%20the%20tragic%20death%20of%20an%2018-month%20old%20leopard%20on%20Dumna%20road%20on%20the%20intervening%20night%20of%208th%20and%209th%20July%202021%20around%201%20AM%2C%20I%20write%20to%20you%20hoping%20this%20would%20be%20the%20first%20and%20last%20of%20such%20cases%20of%20accident%20and%20incompetently%20handled%20attempt%20at%20a%20rescue.%20And%20that%20the%20Forest%20Department%2C%20Police%20and%20locals%20will%20be%20better%20prepared%20for%20any%20unforeseen%20circumstances%20like%20this%20in%20future%0AAccording%20to%20the%20reports%2C%20the%20Leopard%20was%20hit%20by%20a%20speeding%20vehicle%20and%20succumbed%20to%20injuries.%20No%20suspects%20have%20been%20identified%2C%20let%20alone%20caught%20in%20this%20matter%20till%20now.%20This%20incident%20only%20shows%20how%20citizens%20grave%20apprehensions%20expressed%20about%20the%20sanctity%20of%20Dumna%20being%20compromised%20has%20now%20turned%20into%20a%20reality.%0AThere%20are%20several%20protocols%20published%20by%20MOEFCC%20that%20have%20to%20be%20followed%20in%20such%20situations%20to%20avoid%20any%20Human-wildlife%20conflict%2C%20none%20of%20which%20were%20seen%20followed%20in%20any%20of%20the%20videos.%0AThe%20protocol%20mentions%20the%20safety%20of%20the%20people%20involved%20in%20the%20rescue%2C%20which%20looks%20like%20a%20heroic%20attempt%20to%20capture%20the%20injured%20Leopard.%0AAs%20you%20know%2C%20Dumna%20is%20a%20rich%20forest%20that%20is%20home%20to%20many%20species%2C%20including%20leopards.%20The%20forest%20and%20surrounding%20area%20help%20preserve%20the%20ecological%20balance%20of%20Jabalpur%20that%20will%20erode%20if%20strict%20restrictions%20are%20not%20put%20in%20place.%0AThe%20area%20through%20which%20the%20road%20passes%20bear%E2%80%99s%20rich%20wildlife%2C%20including%20several%20leopards%20and%20deers.%20There%20is%20no%20check%20on%20the%20vehicles%20going%20in%20this%20area%20at%20night%2C%20and%20the%20same%20has%20become%20a%20hot%20spot%20of%20alcoholics%20who%20speed%20their%20vehicles%20on%20this%20road%20almost%20through%20the%20night.%20The%20sides%20of%20the%20road%20are%20littered%20with%20signs%20of%20activity%20at%20night.%20Several%20people%20use%20this%20road%20as%20a%20racing%20track%20at%20night.%C2%A0%0AThere%20is%20no%20patrolling%20in%20this%20area%20by%20the%20police.%20There%20is%20no%20presence%20of%20the%20forest%20department%20for%20the%20safety%20of%20wildlife.%20In%20fact%2C%20there%20are%20not%20even%20any%20signboards%20indicating%20that%20this%20is%20a%20wildlife%20area%20and%20that%20the%20speed%20should%20be%20under%20control%20or%20that%20the%20right%20of%20way%20for%20wildlife%20has%20to%20be%20respected.%20Therefore%2C%20stringent%20measures%20are%20required%20to%20be%20taken%20to%20save%20the%20wilderness%20of%20the%20area.%C2%A0%0A%0AWe%20are%20looking%20forward%20to%20your%20quick%20action%20in%20this%20regard.";
+         //BodyOfEmail2 = "There Is No Earth B";
+
+        var EndingLine  = [
+            '%0A%0AIn%20Solidarity%0AAn%20environmentally%20conscious%20and%20concerned%20Indian%0A',
+            '%0A%0AIn%20Solidarity%0AA%20Concerned%20Citizen%0A',
+            '%0A%0AA%20Concerned%20Indian%0A',
+            '%0A%0ASincerely%0AA%20Concerned%20Citizen%0A%0A'
+          ];
+
+      var sub = parseInt(Math.random() * SubjectLine.length);
+      var Oline = parseInt(Math.random() * OpeningLine.length);
+      var Eline = parseInt(Math.random() * EndingLine.length);
+
+      //const CompleteMessageToSend = "mailto:"+ SendMailTo + "?bcc="+ bcc + "&subject=" + SubjectLine[sub] + "&body=" + OpeningLine[Oline] + BodyOfEmail +(encodeURIComponent(BodyOfEmail2)) + EndingLine[Eline];
+
+      const CompleteMessageToSend = "mailto:"+ SendMailTo + "?bcc="+ bcc + "&subject=" + SubjectLine[sub] + "&body=" + OpeningLine[Oline] + BodyOfEmail + EndingLine[Eline];
+
+      location.href = CompleteMessageToSend;
+
+
+    }
+</script>
+<body onload='randomSite()'>
